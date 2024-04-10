@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fleet--clip {
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
+}
