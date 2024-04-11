@@ -11,8 +11,6 @@ export default function Home() {
             <div className="col-start-1 col-span-6">
                 <Cards/>
             </div>
-            <div className="col-end-7 col-span-2">03</div>
-            <div className="col-start-1 col-end-7">04</div>
         </div>
     )
 }

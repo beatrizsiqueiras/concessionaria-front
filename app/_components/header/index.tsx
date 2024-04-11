@@ -2,7 +2,7 @@ import { LiaUser } from "react-icons/lia";
 
 export default function Header() {
     return (
-        <header className="bg-white text-gray-700 font-mono border-b-2 uppercase font-thin">
+        <header className="bg-white text-gray-700 font-mono border-b-2 uppercase font-thin sticky top-0 z-50">
             <div className="flex flex-row">
                 <div className="basis-32 flex justify-center">
                     <img

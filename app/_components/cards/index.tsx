@@ -11,12 +11,12 @@ import car4 from './img/car4.png'
 const Cards = () => {
     return (
         <div className="py-24 bg-gray-200">
-            <h4 className="uppercase font-semibold text-center mb-1 text-red-500 text-xl">
-                LET'S GO
-            </h4>
             <h2 className="text-center font-semibold text-3xl">
-                Ja conhece as nossas orfetas?
+                Já conhece as nossas orfetas?
             </h2>
+            <h4 className="uppercase font-semibold text-center mb-1 text-red-500 text-xl">
+                CLIQUE AQUI
+            </h4>
             <div className="grid grid-cols-4 gap-5 mt-10">
                 <div className="bg-[#f4f5f8] shadow-md">
                     <div className="relative">
@@ -34,7 +34,10 @@ const Cards = () => {
                         <p>Chevrolet</p>
                         <div className="flex items-center gap-2 mt-2">
                             <div className="h-10 w-10 flex items-center justify-center bg-gray-800 rounded-full">
-                                <BsPersonPlus className='text-white' size={25}/>
+                                <BsPersonPlus
+                                    className="text-white"
+                                    size={25}
+                                />
                             </div>
                             <p>4 passageiros</p>
                         </div>
@@ -56,7 +59,10 @@ const Cards = () => {
                         <p>Chevrolet</p>
                         <div className="flex items-center gap-2 mt-2">
                             <div className="h-10 w-10 flex items-center justify-center bg-gray-800 rounded-full">
-                                <BsPersonPlus className='text-white' size={25}/>
+                                <BsPersonPlus
+                                    className="text-white"
+                                    size={25}
+                                />
                             </div>
                             <p>4 passageiros</p>
                         </div>
@@ -78,7 +84,10 @@ const Cards = () => {
                         <p>Nova Saveiro</p>
                         <div className="flex items-center gap-2 mt-2">
                             <div className="h-10 w-10 flex items-center justify-center bg-gray-800 rounded-full">
-                                <BsPersonPlus className='text-white' size={25}/>
+                                <BsPersonPlus
+                                    className="text-white"
+                                    size={25}
+                                />
                             </div>
                             <p>2 passageiros</p>
                         </div>
@@ -100,7 +109,10 @@ const Cards = () => {
                         <p>Kwid</p>
                         <div className="flex items-center gap-2 mt-2">
                             <div className="h-10 w-10 flex items-center justify-center bg-gray-800 rounded-full">
-                                <BsPersonPlus className='text-white' size={25}/>
+                                <BsPersonPlus
+                                    className="text-white"
+                                    size={25}
+                                />
                             </div>
                             <p>4 passageiros</p>
                         </div>
