@@ -1,6 +1,7 @@
-import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import CarouselCars from './_components/carousel'
-import Cards from './_components/cards'
+import Cards from './_components/cards-home'
+import ListCarsBrands from './_components/list-cars-brands'
+import CarsSearchForm from './_components/cars-search-form'
 
 export default function Home() {
     return (
@@ -9,7 +10,13 @@ export default function Home() {
                 <CarouselCars />
             </div>
             <div className="col-start-1 col-span-6">
-                <Cards/>
+                <Cards />
+            </div>
+            <div className="col-start-1 col-span-6">
+                <ListCarsBrands />
+            </div>
+            <div className="col-start-1 col-span-6">
+                <CarsSearchForm />
             </div>
         </div>
     )
