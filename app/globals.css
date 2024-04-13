@@ -5,3 +5,7 @@
 .fleet--clip {
     clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
