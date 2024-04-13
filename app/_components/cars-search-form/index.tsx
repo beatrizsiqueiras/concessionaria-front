@@ -2,12 +2,10 @@ import React from 'react'
 
 import { CiSearch } from 'react-icons/ci'
 
-const CarsSearchForm = () => {
+const CarsSearchForm = ({ title }: { title?: string }) => {
     return (
         <div className="py-24 bg-gray-200 text-gray-800">
-            <h2 className="text-center font-semibold text-2xl">
-                Encontre seu veículo
-            </h2>
+            <h2 className="text-center font-semibold text-2xl">{title}</h2>
             <div className="grid grid-cols-4 gap-5 mt-10 m-5">
                 <select className="h-10 border border-[#006494] rounded text-center">
                     <option value="">Marca</option>

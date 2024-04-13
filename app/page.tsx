@@ -10,13 +10,13 @@ export default function Home() {
                 <CarouselCars />
             </div>
             <div className="col-start-1 col-span-6">
+                <CarsSearchForm title={"Encontre seu veículo"}/>
+            </div>
+            <div className="col-start-1 col-span-6">
                 <Cards />
             </div>
             <div className="col-start-1 col-span-6">
                 <ListCarsBrands />
-            </div>
-            <div className="col-start-1 col-span-6">
-                <CarsSearchForm />
             </div>
         </div>
     )

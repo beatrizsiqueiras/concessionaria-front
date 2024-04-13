@@ -12,7 +12,7 @@ export default function Header() {
                     />
                 </div>
                 <div className="basis-1/4 flex align-text-bottom justify-start mt-5">
-                    <p className="text-4xl">PrimeDrive</p>
+                    <a className="text-4xl" href="/">PrimeDrive</a>
                 </div>
                 <div className="basis-9/12 mt-5">
                     <nav className="flex justify-end space-x-7 text-2xl mr-6">
